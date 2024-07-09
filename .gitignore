@@ -1,0 +1,26 @@
+# Ignorer les fichiers de configuration spécifiques à l'utilisateur
+.bash_history
+.config/
+.npm/
+.nvm/
+.vscode/
+
+# Ignorer les sessions de bash
+.bash_sessions/
+
+# Ignorer les fichiers et dossiers spécifiques à macOS
+.DS_Store
+
+# Ignorer les fichiers de lock
+*.lock
+
+# Ignorer les fichiers PDF et PNG spécifiques
+Desktop/*.pdf
+Desktop/*.png
+
+# Ignorer les fichiers temporaires et de log
+logs/
+*.log
+
+# Ignorer les modules Node.js
+node_modules/
